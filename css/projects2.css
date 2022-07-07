@@ -1,0 +1,243 @@
+@charset "utf-8";
+
+/* 
+    dark blue
+    #326789
+
+    light blue
+    #78a6c8
+
+    light blue grey
+    #e9eef2
+
+    red
+    #e65c4f
+
+    
+ -----  checked ----
+
+    **darkest blue
+    #11191e
+
+    **dark grey
+    #2e424d
+
+    dark blue
+    #5b8291
+
+    light blue - idont like this one
+    #98dad9
+
+    **light color
+    #eaebed
+
+*/
+
+main section#works2{
+    background-color: #eaebed;
+
+}
+main #works2 .page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main #works2 .page .left{
+    width: 50%;
+    height: 100%;
+    padding: 100px;
+    font-weight: 400;
+
+    border-right: 1px solid #11191e;
+}
+main #works2 .page .left .wrap{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+main #works2 .page .left .wrap .top{
+    width: 100%;
+    height: 50%;
+    /* background-color: #789; */
+}
+main #works2 .page .left .wrap .top .text_pt{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+main #works2 .page .left .wrap .top .text_pt .title{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    
+}
+main #works2 .page .left .wrap .top .text_pt .title h1{
+    font-weight: 300;
+    font-size: 40px;
+    /* text-decoration: underline; */
+}
+main #works2 .page .left .wrap .top .text_pt .title h1 a{
+    cursor: pointer;
+    /* display: block; */
+    transition: color 0.5s;
+    color: #11191e;
+    transition: color 0.4s;
+}
+main #works2 .page .left .wrap .top .text_pt .title h1 a:hover{
+    color: #5b8291;
+}
+main #works2 .page .left .wrap .top .text_pt .details{
+    width: 100%;
+}
+main #works2 .page .left .wrap .top .text_pt .details h2{
+    color: #11191e;
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+main #works2 .page .left .wrap .top .text_pt .details p{
+    font-size: 16px;
+    line-height: 1.8;
+    color: #2e424d;
+    padding-bottom: 10px;
+}
+
+
+main #works2 .page .left .wrap .bottom{
+    width: 100%;
+    height: 50%;
+    background-color: #11191e;
+    border-radius: 30px 30px 0 0;
+    /* padding: 10px;*/
+    overflow: hidden;
+    border-radius: 30px 30px 0 0;
+}
+
+main #works2 .page .left .wrap .bottom a{}
+main #works2 .page .left .wrap .bottom a .example{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px 30px 0 0;
+    background-image: url(../img/oclass_image1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: transform 0.4s;
+}
+main #works2 .page .left .wrap .bottom a .example:hover{
+    transform: scale(1.1);
+}
+main #works2 .page .left .wrap .bottom a .example .dark{
+    width: 100%;height: 100%;
+    border-radius: 30px 30px 0 0;
+    position: absolute;
+    overflow: hidden;
+    transition: background-color 0.4s;
+}
+main #works2 .page .left .wrap .bottom a .example .dark:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+
+main #works2 .page .right{
+    width: 50%;
+    height: 100%;
+    padding: 100px;
+    font-weight: 400;
+
+    border-right: 1px solid #11191e;
+}
+main #works2 .page .right .wrap{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+main #works2 .page .right .wrap .top{
+    width: 100%;
+    height: 50%;
+    background-color: #11191e;
+    border-radius: 30px 30px 0 0;
+    /* padding: 10px; */
+    overflow: hidden;
+    border-radius: 30px 30px 0 0;
+}
+main #works2 .page .right .wrap .top a{}
+main #works2 .page .right .wrap .top a .example{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px 30px 0 0;
+    background-image: url(../img/bhs_full.png);
+    background-size: cover;
+    background-position: 50% 0%;
+    transition: transform 0.4s;
+}
+main #works2 .page .right .wrap .top a .example:hover{
+    transform: scale(1.1);
+}
+main #works2 .page .right .wrap .top a .example .dark{
+    width: 100%;height: 100%;
+    border-radius: 30px 30px 0 0;
+    position: absolute;
+    overflow: hidden;
+    transition: background-color 0.4s;
+}
+main #works2 .page .right .wrap .top a .example:hover .dark{
+    background-color: rgba(0,0,0,0.5);
+}
+
+main #works2 .page .right .wrap .bottom{
+    width: 100%;
+    height: 50%;
+    /* background-color: #789; */
+}
+main #works2 .page .right .wrap .bottom .text_pt{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+main #works2 .page .right .wrap .bottom .text_pt .title{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+main #works2 .page .right .wrap .bottom .text_pt .title h1{
+    font-weight: 300;
+    font-size: 40px;
+    /* text-decoration: underline; */
+}
+main #works2 .page .right .wrap .bottom .text_pt .title h1 a{
+    cursor: pointer;
+    /* display: block; */
+    transition: color 0.5s;
+    color: #11191e;
+    transition: color 0.4s;
+}
+main #works2 .page .right .wrap .bottom .text_pt .title h1 a:hover{
+    color: #5b8291;
+}
+main #works2 .page .right .wrap .bottom .text_pt .details{}
+main #works2 .page .right .wrap .bottom .text_pt .details h2{
+    color: #11191e;
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+main #works2 .page .right .wrap .bottom .text_pt .details p{
+    font-size: 16px;
+    line-height: 1.8;
+    color: #2e424d;
+    padding-bottom: 10px;
+}
+

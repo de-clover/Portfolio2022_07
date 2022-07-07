@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DaeunJUNG</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/profile.css">
+    <link rel="stylesheet" href="./css/projects1.css">
+    <link rel="stylesheet" href="./css/projects2.css">
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+<body>
+    <header></header>
+
+    <!-- 
+        [Full page slider의 구성조건]
+        1. 각 섹션 파트의 공간은 w100%, h100vh로 설정해야 한다.
+        2. 마우스 휠을 돌렸을 때, 다음 페이지로 내려가거나 또는 이전 페이지로 올라가야 한다. (자석처럼 화면의 전면이 이동하여야 한다.) - mousewheel 이벤트
+    -->
+
+    <main>
+<!-- #1 -->
+            <section class="box active" id="home">
+              <div class="page">
+                    <div class="left">
+                        <div class="wrap">
+                            <div class="img">
+                                <div class="temp"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="wrap">
+                            <div class="message">
+                                <!-- <h1>What i value in this field and job, and what kind of work do i want to create.</h1> -->
+
+                                <!-- <h1>I value "DIVERSITY" in this world. But also, "User Friendliness" is something we can't walk pass by.<br>I want to hear the needs and wants from each different of you, and bring the most satisfying results.</h1> -->
+
+                                <h1>I value "Diversity" and <br>
+                                    "User Friendliness".</h1>
+                                <h1>I want to hear the needs and wants from each different of you, and bring the most satisfying results.</h1>
+
+                                <!-- <h1>My strength? Standing in others' shoes.</h1>
+                                <h1>
+                                    Which always has been useful for understanding user's view better, and collaborative in teams.
+                                </h1>
+                                <h1>   
+                                    I am a starter in this field but I'm eager to learn and be more experienced. I believe my creative, positive, collaborative skills will make me a good UXUI designer and a web publisher. 
+                                </h1> -->
+                            </div>
+                        </div>
+                    </div>
+              </div>
+            </section>
+<!-- #2 -->
+            <section class="box" id="profile">
+                <div class="page">
+                    <div class="left">
+                        <div class="wrap">
+                            <div class="pic_space"><span>About me</span>
+                                <div class="pic">
+                                    <div class="dark"></div>
+                                </div>
+                            </div>
+                            <div class="text_space">
+                                <h2>Education</h2>
+                                <p>- HiMedia : UXUI Web Publishing Course | 2022.01 - 2022.07</p>
+                                <p>- Toyo University (Dept of Economics) | 2018.04 - 2023.03 (expected)</p>
+                                <p>- Yokohama YMCA College (Japanese and Japan culture studies) | 2016.04 - 2018.03</p>
+    
+                                <h2>Experience</h2>
+                                    <ul>
+                                        <li>
+                                            <p>- Bloomstreet - Marketing Department | 2019.12 - current</p>
+                                            <span>Role: SEO & Contents marketing, SNS management, Korea market research, web translation,  etc</span>
+                                        </li>
+                                        <li>
+                                            <p>- Toyo TIPS - SDGs project team | 2020.09 - current</p>
+                                            <span>Role: Project/ Event organizer, PR manager</span>
+                                        </li>
+                                    </ul>
+                                <h2>Speaking Language</h2>
+                                <ul>
+                                    <li><p>Korean (Native)</p></li>
+                                    <li><p>Japanese & English (Advanced/ Business Level)</p></li>
+                                    <li><p>Spanish & Dutch (Intermediatary)</p></li>
+                                </ul>
+                                <!-- <p>Korean(Native), Japanese(Advanced), English(Advanced), Spanish(Intermediatary), Dutch(Beginner)</p> -->
+                                
+                                <!-- <h2>Based in</h2> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="wrap">
+                            <div class="title">
+                                <h1>Skills</h1>
+                            </div>
+                            <div class="text_space">
+                                <div class="design">
+                                    <h2>&gt;&nbsp;Design<button onclick="window.open('./overview.html','mywindow');">More</button></h2>
+                                    <!-- <button>More</button> -->
+                                    <ul>
+                                        <li>Adobe Photoshop</li>
+                                        <li>Adobe Illustration</li>
+                                        <li>Figma/ Adobe XD</li>
+                                    </ul>
+                                </div>
+                                <div class="develop">
+                                    <h2>&gt;&nbsp;Web Development<button onclick="window.open('./overview.html','mywindow');">More</button></h2>
+                                    <!-- <button>More</button> -->
+                                    <ul>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>Java Script</li>
+                                        <li>Vue Js</li>
+                                        <li>Php</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+<!-- #3 -->
+            <section class="box" id="works1">
+                <div class="page">
+
+                    <div class="left">
+                        <div class="wrap">
+                            <div class="top">
+                                <a href="https://de-clover.github.io/kuliner/" target=_blank>
+                                    <div class="example">
+                                        <div class="dark"></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="bottom">
+                                <div class="text_pt">
+                                    <div class="title">
+                                        <h1><a href="https://de-clover.github.io/kuliner/" target=_blank>Kuliner</a></h1>
+                                    </div>
+                                    <div class="details">
+                                        <h2>Main Features</h2>
+                                        <p>One page website, animated designs, google map(API), etc</p>
+                                        <h2>Languages</h2>
+                                        <p>HTML, CSS, Navigation, Javascript(plug-in: wow-js), Jquery</p>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="text_pt">
+                                    <div class="title">
+                                        <h1><a href="https://de-clover.github.io/cakehouse/">Cakehouse</a></h1>
+                                    </div>
+                                    <div class="details">
+                                        <h2>Main Features</h2>
+                                        <p>One page website, Navigation, Slide banner, google map(API), etc</p>
+                                        <h2>Languages</h2>
+                                        <p>HTML, CSS, Jquery</p>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="wrap">
+                            <div class="top">
+                                <div class="text_pt">
+                                    <div class="title">
+                                        <h1><a href="https://de-clover.github.io/BnOplay/ target=_blank">BnO Play</a></h1>
+                                    </div>
+                                    <div class="details">
+                                        <h2>Main Features</h2>
+                                        <p>One page website, grid, video banner</p>
+                                        <h2>Languages</h2>
+                                        <p>HTML, CSS</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <a href=" https://de-clover.github.io/BnOplay/" target=_blank>
+                                    <div class="example">
+                                        <div class="dark"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+<!-- #4 -->
+            <section class="box" id="works2">
+                <div class="page">
+                    <div class="left">
+                        <div class="wrap">
+                            <div class="top">
+                                <div class="text_pt">
+                                    <div class="title">
+                                        <h1><a href="http://daeun.dothome.co.kr/oclass" target=_blank>OClass</a></h1>
+                                    </div>
+                                    <div class="details">
+                                        <h2>Main Features</h2>
+                                        <p>Login, Mypage, Board, DB(MyPhp), Cart, etc</p>
+                                        <h2>Languages</h2>
+                                        <p>HTML, CSS, JS, PHP</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <a href="http://daeun.dothome.co.kr/oclass" target=_blank>
+                                    <div class="example">
+                                        <div class="dark"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="wrap">
+                            <div class="top">
+                                <a href="#">
+                                    <div class="example">
+                                        <div class="dark"></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="bottom">
+                                <div class="text_pt">
+                                    <div class="title">
+                                        <h1><a href="">BHS Hanseo Hospital</a></h1>
+                                    </div>
+                                    <div class="details">
+                                        <h2>Main Features</h2>
+                                        <p>Login, Mypage, Board, Database</p>
+                                        <h2>Languages</h2>
+                                        <p>HTML, CSS, JS(+Jquery, Vue Js), PHP</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </section>
+
+<!-- #5 -->
+            <section class="box" id="contact">
+                <div class="page">
+                    <div class="left">
+                        <div class="wrap">
+                            <h1>Contacts</h1>
+                            <ul>
+                                <li>Daeun JUNG | Clover</li>
+                                <li>DaeunJung001@gmail.com</li>
+                                <li><a href="https://github.com/de-clover" target=_blank>GIT HUB LINK</a></li>
+                                <!-- <li>Tel(JP): +8180-4088-2129</li>
+                                <li>Tel(KR): +8210-2619-2129</li> -->
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="wrap">
+                            <div class="input_space">
+                                <h1>Inquiry</h1>
+                                <form action="" method="post">
+                                    <input type="text" name="name" placeholder="NAME" autocomplete="off" required>
+                                    <input type="email" name="email" placeholder="EMAIL" autocomplete="off" required>
+                                    <input type="text" name="phone" placeholder="PHONE NUMBER" autocomplete="off" required>
+                                    <input type="text" name="inquiry" placeholder="YOUR MESSAGE" autocomplete="off">
+                                </form> 
+                                <button type="submit"><a href="DaeunJung001@gmail.com"><span>SEND MESSAGE</span></a></button>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/c2a8ed99bd.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/common.js"></script>
+</body>
+</html>

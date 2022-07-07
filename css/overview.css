@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+
+/* 
+.boxes{ width: 1600px;height: 500px; position: relative;
+
+}
+.boxes iframe{width: 1600px;height: 500px;transform: scale(0.3
+    ) ;position: absolute;top: 0;left: 0;}
+
+    .boxes:hover{
+    height: 1000px;position: relative;
+    }
+.boxes iframe:hover{height: 1000px; position: absolute;top: 0;left: 0;} 
+*/
+
+header .wrap .mainmenu ul li.home a{
+    color: #eaebed;
+}
+header .wrap .submenu ul li:nth-child(2) a{
+    color: #11191e;
+}
+/* ----------------------------------------------------------------- */
+section#overview{
+    width: 100%;
+    background-color: #11191e;
+}
+#overview .wrap{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+    /* background-color: #678; */
+}
+
+#overview .wrap .mainTitle{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    /* background-color: #899; */
+}
+#overview .wrap .mainTitle h1{
+    font-size: 50px;
+    font-weight: 100;
+    color: #eaebed;
+    border-bottom: 1px solid #eaebed;
+    padding: 0 0 25px 20px;
+}
+
+
+/* ------------- sort button ----------------- */
+
+#overview .wrap .sort_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 10px;
+}
+#overview .wrap .sort_btn li{
+    margin: 0 5px;
+}
+#overview .wrap .sort_btn li a{
+    display: block;
+    padding: 10px 20px;
+    border:1px solid #fff;
+    border-radius:4px;
+    color:#fff;
+    font-size: 14px;
+    transition: 0.5s;
+}
+#overview .wrap .sort_btn li.active a,
+#overview .wrap .sort_btn li:hover a{
+    background-color: #fff;
+    color:#789;
+}
+
+/* ------------- #contents -------------- */
+
+#overview .wrap #contents{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#overview .wrap #contents .eachBox{
+    /* width: 50vw;
+    float: left; */
+    padding: 30px;
+    width: calc(100% / 3);
+    /* background-color: #a0aa8c; */
+    
+}
+#overview .wrap #contents .eachBox .cont_wrap{
+    width: 100%;
+    background-color: #fff;
+    border-radius:15px;
+    /* box-shadow: 2px 2px 8px rgba(0,0,0,0.1); */
+    padding: 20px;
+
+    transition: box-shadow 0.4s, transform 0.4s;
+    
+}
+#overview .wrap #contents .eachBox .cont_wrap:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transform: scale(1.03);
+}
+#overview .wrap #contents .eachBox .cont_wrap .imgBx{
+}
+#overview .wrap #contents .eachBox .cont_wrap .imgBx img{
+    display: block;
+    width: 100%;
+    border-radius:10px;
+}
+
+
+#overview .wrap #contents .eachBox .cont_wrap .txtBx{
+    display: block;
+    width: 100%;
+    height: 150px;
+    /* background-color: #efefef; */
+
+}
+#overview .wrap #contents .eachBox .cont_wrap .txtBx h2{
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    color:#11191e;
+}
+#overview .wrap #contents .eachBox .cont_wrap .txtBx p{
+    color:#2e424d;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 15px 0 20px;
+}
+
+
+/* 
+@media (max-width:1400px){
+    main #contents{
+        width: 25%;
+    }
+}
+@media (max-width:991px){
+    main #contents{
+        width: 33.33%;
+    }
+}
+@media (max-width:767px){
+    header{
+        left:-200px;
+        transition: left 0.5s;
+    }
+    header.active{left:0;}
+    header span{
+        content: ""; display: block;
+        width: 40px; height: 40px; 
+        background-color: #000;
+        position: absolute;
+        top:50%; right: -40px;
+        transform: translateY(-50%);
+        color:#fff;
+        background-image: url(../img/arrow_next_right.svg);
+        background-size: auto 60%;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+    header.active span{
+        background-image: url(../img/arrow_back_left.svg);
+    }
+    main{width: 100%; margin: 0;}
+
+    main .sort_btn{
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+    main .sort_btn li{
+        margin: 0 5px 10px;
+    }
+
+    main #contents{
+        width: 50%;
+    }
+}
+@media (max-width:575px){
+    main #contents{
+        width: 100%;
+    }
+}
+
+ */

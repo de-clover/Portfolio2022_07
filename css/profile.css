@@ -1,0 +1,308 @@
+@charset "utf-8";
+
+main section#profile{
+    background-color: #11191e;
+
+}
+main #profile .page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main #profile .page .left{
+    width: 50%;
+    height: 100%;
+    padding: 100px;
+    /*padding: 80px 100px 100px 100px;*/ /*default: padding: 100px*/
+    background-color: #eaebed;
+}
+main #profile .page .left .wrap{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+    /* background-color: #333; */
+}
+
+main #profile .page .left .wrap .pic_space{
+    width: 100%;
+    height: 20%;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* align-items: center; */
+
+    /* background-color: #567; */
+
+    position: relative;
+}
+
+main #profile .page .left .wrap .pic_space span{
+    display: flex;
+    width: 300px;
+    position: absolute;
+    left: 0; bottom: 0;
+
+    border-bottom: 1px solid #11191e;
+    color: #11191e;
+
+        /* font-size: 40px; */
+        font-size: 30px;
+        font-weight: 100;
+        /* border-bottom: 1px solid #eaebed; */
+}
+main #profile .page .left .wrap .pic_space .pic{
+    /* width: 200px;
+    height: 200px;
+    opacity: 0.7;
+    border-radius: 50%;
+    background-color: #000; */
+
+    width: 200px;
+    height: 200px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/self_portrait.jpg);
+
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(90%);
+    /* background-color: #987; */
+    /* opacity: 0.9; */
+    border-radius: 50%;
+
+    position: absolute;
+    right: 0;top: 0;
+
+}
+main #profile .page .left .wrap .pic_space .pic  .dark{
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+
+
+main #profile .page .left .wrap .text_space{
+    width: 100%;
+    height: 80%;
+    margin-top: 30px;
+    padding-left: 20px;
+
+    /* background-color: #987; */
+}
+main #profile .page .left .wrap .text_space h2{
+    margin:15px 0 15px ;
+    font-size: 30px;
+    font-weight: 400;
+    color: #11191e;
+    /* text-transform: uppercase; */
+}
+main #profile .page .left .wrap .text_space p{
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #11191e;
+}
+main #profile .page .left .wrap .text_space span{
+    font-size: 18px;
+    display: block;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+main #profile .page .left .wrap .text_space ul{}
+main #profile .page .left .wrap .text_space ul li{
+    line-height: 1.8;
+}
+main #profile .page .left .wrap .text_space ul li p{}
+main #profile .page .left .wrap .text_space ul li span{}
+
+
+
+
+
+
+main #profile .page .right{
+    width: 50%;
+    height: 100%;
+    padding: 100px;
+
+    color:#eaebed;
+    line-height: 2;
+}
+main #profile .page .right .wrap{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+main #profile .page .right .wrap .title{
+    width: 100%;
+    height: 20%;
+    /* height: 40px; */
+    /* line-height: 40px; */
+    /* border-bottom: 1px solid #eaebed; */
+    /* margin-bottom: 20px; */
+    /* background-color: #999; */
+
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+
+    position: relative;
+}
+main #profile .page .right .wrap .title h1{
+    font-size: 30px;
+    font-weight: 100;
+    /* display: block; */
+
+    width: 100%;
+    display: flex;
+    /* width: 300px; */
+
+    border-bottom: 1px solid #eaebed;
+    /* border-bottom: 1px solid #11191e; */
+    color: #eaebed;
+
+}
+main #profile .page .right .wrap .text_space{
+    width: 100%;
+    height: 80%;
+}
+main #profile .page .right .wrap .text_space .design{
+    width: 100%;
+    /* height: 50%; */
+    position: relative;
+    padding: 20px;
+    /* background-color: #567; */
+    /*border-top: 1px solid #eaebed; */
+}
+main #profile .page .right .wrap .text_space .design h2{
+    font-size: 30px;
+    font-weight: 200;
+    /* text-decoration: underline; */
+    display: block;
+    /* background-color: #099; */
+    position: relative;
+    margin-top: 20px;
+
+    /* margin-bottom: 20px; */
+}
+/* main #profile .page .right .wrap .design button{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+    color: #11191e;
+} */
+main #profile .page .right .wrap .text_space .design h2 button{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+    color: #11191e;
+    position: absolute;
+    right: 0; top: 15px;
+}
+main #profile .page .right .wrap .text_space .design ul{
+    width: 100%;
+    /* height: 100%; */
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+main #profile .page .right .wrap .text_space .design ul li{
+    font-size: 18px;
+    display: flex;
+    font-weight: 300;
+}
+
+main #profile .page .right .wrap .text_space .develop{
+    width: 100%;
+    /* height: 50%; */
+    position: relative;
+    padding: 20px;
+    /* background-color: #789; */
+}
+main #profile .page .right .wrap .text_space .develop h2{
+    font-size: 30px;
+    font-weight: 200;
+    /* text-decoration: underline; */
+    display: block;
+    /* background-color: #099; */
+    position: relative;
+
+    /* margin-bottom: 20px; */
+}
+/* main #profile .page .right .wrap .text_space .develop button{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+} */
+main #profile .page .right .wrap .text_space .develop h2 button{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+    position: absolute;
+    right: 0; top: 15px;
+    
+}
+main #profile .page .right .wrap .text_space .develop ul{
+    width: 100%;
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+main #profile .page .right .wrap .text_space .develop ul li{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+main #profile .page .right .wrap .text_space .design h2 button:hover, main #profile .page .right .wrap .develop h2 button:hover{
+    transition: background-color 0.3s, color 0.3s; 
+}
+main #profile .page .right .wrap .text_space .design h2 button:hover, main #profile .page .right .wrap .text_space .develop h2 button:hover{
+    background-color: #5b8291;
+    color: #eaebed;
+}

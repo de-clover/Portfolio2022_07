@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+section#process{
+    width: 100%;
+    color: #eee;
+}
+
+#process .wrap{
+    width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+    margin-top: 40px;
+    /* background-color: #444; */
+}
+
+#process .wrap .mainTitle{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+#process .wrap .mainTitle h1{
+    font-size: 50px;
+    font-weight: 100;
+    color: #eaebed;
+    border-bottom: 1px solid #eaebed;
+    padding: 0 0 25px 20px;
+}
+
+/* ------------- flow chart ------------ */
+#process .wrap .flowChart{
+    width: 100%;
+    height: 450px;
+
+    /* background-color: #678; */
+}
+#process .wrap .flowChart ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#process .wrap .flowChart ul li{
+    width: 200px;height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+
+    /* color: #11191e; */
+    color:#eaebed;
+    /* border: 5px solid #2e424d ; */
+
+
+    background-color: #789
+
+}
+
+
+/* ------------- cases ----------------- */
+#process .wrap #case{
+    width: 100%;
+    background-color: #4890;
+
+}
+#process .wrap #case .caseWrap{
+    width: 100%;
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* background-color: #789; */
+}
+#process .wrap #case .caseWrap .eachBox{
+    width: 80%;
+    height: 400px;
+    margin: 40px;
+    color: #eaebed;
+    border-radius: 30px;
+    border: 2px solid #eaebed;
+    
+    position: relative;
+    
+    /* background-color: #987; */
+}
+#process .wrap #case .caseWrap .eachBox h3{
+    display: block;
+    text-align: center;
+    width: 150px;
+    line-height: 1;
+    font-size: 40px;
+    font-weight: 200;
+    position: absolute;
+    left: 80px;top: -40px;
+
+    /* transform: translate( 40%, -85%); */
+
+    background-color: #11191e;
+}
+#process .wrap #case .caseWrap .eachBox .innerBox{
+    display: flex;
+    width: 100%; height: 100%;
+    
+    display: flex;
+    align-items: center;
+
+    /* background-color: #987; */
+}
+#process .wrap #case .caseWrap .eachBox .innerBox .img_space{
+    width: 50%; height: 80%;
+    margin: 0 15px 0 40px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-image: url();
+
+    background-color: #678;
+}
+#process .wrap #case .caseWrap .eachBox .innerBox .txt_space{
+    width: 50%; height: 80%;
+    margin: 0 40px 0 15px;
+}
+#process .wrap #case .caseWrap .eachBox .innerBox .txt_space h2{
+    font-size: 30px;
+    font-weight: 200;
+}
+#process .wrap #case .caseWrap .eachBox .innerBox .txt_space h4{
+    font-size: 16px;
+    font-weight: 200;
+    margin: 10px 0 20px;
+}
+#process .wrap #case .caseWrap .eachBox .innerBox .txt_space p{
+    font-size:  18px;
+    font-weight: 200;
+    line-height: 1.8;
+}

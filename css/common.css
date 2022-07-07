@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/* *{box-sizing: border-box;font-family: 'Raleway', 'Noto Sans KR', sans-serif;} */
+*{box-sizing: border-box;font-family: 'Quicksand', 'Noto Sans KR', sans-serif;}
+html, body{margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6, p{margin: 0;}
+ul, ol{margin: 0; padding: 0; list-style: none;}
+a{text-decoration: none;}
+
+body{background-color: #11191e;}
+
+/* 
+    dark blue
+    #326789
+
+    light blue
+    #78a6c8
+
+    light blue grey
+    #e9eef2
+
+    red
+    #e65c4f
+    
+    ------------------------>#e65245; (nav bgc)
+
+
+ -----  checked ----
+
+    **darkest blue
+    #11191e
+
+    **dark grey
+    #2e424d
+
+    brighter blue
+    #5b8291
+
+    **light color
+    #eaebed
+    background-color:rgba(230, 82, 69, 0.75);
+*/
+
+
+body{
+    /* background-color: #efefef; */
+    -ms-overflow-style: none;  /*IE, Edge */
+    scrollbar-width: none;  /*FireFox*/
+}
+body::-webkit-scrollbar{
+    display: none;  /*Chrome, Safari, Opera*/
+}
+
+
+/* --------------------------------------- header */
+
+header{
+    position: fixed;
+    top: 0; left: 0;
+
+    width: 100%;
+    height: 40px;
+    background-color:rgba(232, 88, 75, 0.75);
+    z-index: 3;
+                /* transform: translateY(-100%); */
+    transition: transform 0.5s;
+}
+header.show{
+    transform: translateY(0%);
+}
+header .wrap{}
+header .wrap .mainmenu{}
+header .wrap .mainmenu > ul{
+    /* width: 100%; height: auto; */
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+    /* overflow: hidden; -----> 2단 sub menu hidden */
+}
+header .wrap .mainmenu > ul > li{
+    margin: 0 5px;
+    width: 100px;
+    /* z-index: 4; */
+    /* background-color: #678; */
+}
+header .wrap .mainmenu > ul > li a{
+    display: block;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#fff;
+    /* margin: 0 10px; */
+}
+header .wrap .mainmenu > ul > li a:hover{
+    color: #11191e;
+    transition: color 0.5s;
+}
+
+
+
+
+
+header .wrap .submenu{
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 100%;
+    background-color: rgba(230, 82, 69, 0.7);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+header .wrap:hover .submenu{
+    max-height: 40px;
+}
+
+header .wrap .submenu > ul{
+    width: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .wrap .submenu > ul > li{
+    margin: 0 15px;
+    /* width: 100px; */
+    /* z-index: 5; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* background-color: #345600; */
+}
+header .wrap .submenu > ul > li > a{
+    display: block;
+    color:#fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 35px;
+    
+    transition: color 0.5s;
+}
+header .wrap .submenu > ul > li > a:hover{
+    color: #11191e;
+}
+
+/* ------ .active  & :hover -----  */
+
+header .wrap .mainmenu > ul > li:hover a{
+    color: #11191e;
+}
+
+header .wrap .mainmenu > ul > li.active a{
+    color:#11191e;
+}
+
+
