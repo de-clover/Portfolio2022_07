@@ -26,7 +26,7 @@ $(document).ready(function(){
 
         const menulist = document.querySelectorAll("header .mainmenu li");
         menulist.forEach((v, i)=> {
-            v.querySelector("a").setAttribute("href", `./main.html#m_${i}`);
+            v.querySelector("a").setAttribute("href", `./index.html#m_${i}`);
         });
         
 
