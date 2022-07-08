@@ -42,7 +42,7 @@ main .box.active > div.page{
 
 
 
-@media(max-width:767px){
+@media(max-width:991px){
     body{overflow: auto;}
     main .box{height: auto;}
 
@@ -57,3 +57,18 @@ main .box.active > div.page{
         transition: none;
     }
 }
+/* @media(max-width:767px){
+    body{overflow: auto;}
+    main .box{height: auto;}
+
+    main .box > div.page{
+        position: static;
+        width: 100%; 
+        height: auto;
+        min-height: 400px;
+        transform: none ! important;
+
+        opacity: 1;
+        transition: none;
+    }
+} */

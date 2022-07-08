@@ -1,0 +1,267 @@
+@charset "utf-8";
+
+/* profile */
+@media (max-width:1199px){
+
+}
+@media (max-width:991px){
+
+/* ---------#2 profile--------- */
+    main section#profile{
+        width: 100%;
+    }
+    main #profile .page{
+       flex-direction: column;
+       width: 100%;
+    }
+    main #profile .page .left,
+    main #profile .page .right{
+        width: 100%;
+        padding: 0 50px 100px 50px;
+        /* background-color: #333; */
+    }
+
+    main #profile .page .left .wrap .pic_space,
+    main #profile .page .right .wrap .title{
+        height: 200px;
+    }
+    main #profile .page .left .wrap .pic_space span{
+        top: 100px; left: 0;
+        display: block;
+    }
+    main #profile .page .left .wrap .pic_space .pic{
+        top: 60px;
+        right: 10%;
+    }
+    main #profile .page .left .wrap .text_space h2{
+        margin: 30px 0;
+    }
+
+    main #profile .page .right .wrap .title h1{
+        position: absolute;   
+        top: 100px; left: 0;
+        height: 110px; /*border-bottom 내려주기 위함*/
+    }
+
+
+/* ---------#3 projects1--------- */
+
+    main #works1{
+        width: 100%;
+    }
+    
+    main #works1 .page{
+        flex-direction: column;
+    }
+        main #works1 .page .left{
+            width: 100%;
+            height: auto;
+            padding: 100px 50px 40px 50px;
+
+            display: flex;
+            border-right: 0px solid #11191e;
+        }
+        main #works1 .page .right{
+            width: 100%;
+            height: auto;
+            padding: 40px 50px 100px 50px;
+
+            display: flex;
+            /* background-color: #987; */
+        }
+
+    main #works1 .page .left .wrap{
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+   
+    main #works1 .page .left .wrap .bottom{
+        width: 70%;
+        /* margin-bottom: 30px; */
+    }
+    main #works1 .page .left .wrap .top{
+        width: 70%; height: 300px;
+        margin: 0 auto;
+    }
+    main #works1 .page .left .wrap .top a .example{
+        margin-left: 30px;
+    }
+    main #works1 .page .right .wrap{
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+    main #works1 .page .right .wrap .top{
+        width: 70%;
+        margin-bottom: 30px;
+        margin-left: 50px;
+    }
+    main #works1 .page .right .wrap .bottom{
+        width: 70%; height: 300px;
+        margin: 0 auto;
+
+        width: 70%;
+        margin-bottom: 30px;
+    }
+    main #works1 .page .right .wrap .bottom a .example .dark{
+        height: auto;
+    }
+
+    main #works1 .page .left .wrap .bottom .text_pt, 
+    main #works1 .page .right .wrap .top .text_pt{
+        padding-left: 0;
+    }
+
+
+
+
+
+
+/* ---------#4 projects2--------- */
+
+    main #works2{
+        width: 100%;
+    }
+    
+    main #works2 .page{
+        flex-direction: column;
+    }
+        main #works2 .page .left{
+            width: 100%;
+            height: auto;
+            padding: 100px 50px 40px 50px;
+
+            display: flex;
+            border-right: 0px solid #11191e;
+
+            /* background-color: #678; */
+        }
+
+        main #works2 .page .right{
+            width: 100%;
+            height: auto;
+            padding: 40px 50px 100px 50px;
+
+            display: flex;
+            /* background-color: #987; */
+        }
+    main #works2 .page .left .wrap{
+        display: flex;
+        align-items: center;
+    }
+   
+    main #works2 .page .left .wrap .bottom{
+        width: 70%; height: 300px;
+        margin: 0 auto;
+    }  
+    main #works2 .page .left .wrap .bottom a .example{
+        margin-left: 30px;
+    }
+    main #works2 .page .left .wrap .top{
+        width: 70%;
+    }
+
+    main #works2 .page .right .wrap{
+        display: flex;
+        align-items: center;
+    }
+    main #works2 .page .right .wrap .top{
+        width: 70%; height: 300px;
+        margin: 0 auto;
+    }
+    main #works2 .page .right .wrap .bottom{
+        width: 70%;
+        margin-bottom: 30px;
+        margin-left: 50px;
+    }
+    main #works2 .page .right .wrap .bottom a .example .dark{
+        height: auto;
+    }
+
+    main #works2 .page .left .wrap .top .text_pt, 
+    main #works2 .page .right .wrap .bottom .text_pt{
+        padding-left: 0;
+    }
+
+
+/* ---------------#5 contact----------------- */
+
+    main section#contact{
+        width: 100%;
+    }
+    main #contact .page{
+        width: 100%;
+    }
+        main #contact .page .left{
+            padding: 100px 25px 100px 50px;
+        }
+        main #contact .page .right{
+            padding: 100px 50px 100px 25px;
+        }
+        main #contact .page .left .wrap,
+        main #contact .page .left .wrap{
+            padding: 20px;
+        }
+    main #contact .page .right .wrap .input_space h1{
+        width: 70%;
+        }
+    main #contact .page .right .wrap .input_space form{
+        width: 70%;
+    }
+    main #contact .page .right .wrap .input_space form input{width: 100%;}
+    
+
+
+}
+
+
+
+
+@media (max-width:767px){
+
+    main #works1{
+        width: 100%;
+    }
+    
+    main #works1 .page{
+        flex-direction: column;
+    }
+    main #works1 .page .left, 
+    main #works1 .page .right{
+        width: 100%;
+        height: auto;
+        padding: 100px 50px 0px 50px;
+
+        /* background-color: #789; */
+    }
+    main #works1 .page .left .wrap{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+   
+    main #works1 .page .left .wrap .bottom{
+        width: 70%;
+        margin-bottom: 30px;
+    }
+    main #works1 .page .left .wrap .top{
+        width: 70%; height: 300px;
+        margin: 0 auto;
+
+    }
+    main #works1 .page .right .wrap{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+    main #works1 .page .right .wrap .top{
+        width: 70%;
+        margin-bottom: 30px;
+    }
+    main #works1 .page .right .wrap .bottom{
+        width: 70%; height: 300px;
+        margin: 0 auto;
+    }
+
+}

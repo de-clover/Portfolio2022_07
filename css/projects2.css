@@ -80,6 +80,7 @@ main #works2 .page .left .wrap .top .text_pt .title{
 main #works2 .page .left .wrap .top .text_pt .title h1{
     font-weight: 300;
     font-size: 40px;
+
     /* text-decoration: underline; */
 }
 main #works2 .page .left .wrap .top .text_pt .title h1 a{
@@ -112,7 +113,7 @@ main #works2 .page .left .wrap .top .text_pt .details p{
 main #works2 .page .left .wrap .bottom{
     width: 100%;
     height: 50%;
-    background-color: #11191e;
+    /* background-color: #11191e; */
     border-radius: 30px 30px 0 0;
     /* padding: 10px;*/
     overflow: hidden;
@@ -128,6 +129,13 @@ main #works2 .page .left .wrap .bottom a .example{
     background-size: cover;
     background-position: 50% 50%;
     transition: transform 0.4s;
+}
+main #works2 .page .left .wrap .bottom a .example .dark{
+    width: 100%;height: 100%;
+    border-radius: 30px 30px 0 0;
+    position: absolute;
+    overflow: hidden;
+    transition: background-color 0.4s;
 }
 main #works2 .page .left .wrap .bottom a .example:hover{
     transform: scale(1.1);
@@ -163,13 +171,13 @@ main #works2 .page .right .wrap{
 main #works2 .page .right .wrap .top{
     width: 100%;
     height: 50%;
-    background-color: #11191e;
     border-radius: 30px 30px 0 0;
     /* padding: 10px; */
     overflow: hidden;
     border-radius: 30px 30px 0 0;
 }
-main #works2 .page .right .wrap .top a{}
+main #works2 .page .right .wrap .top a{
+}
 main #works2 .page .right .wrap .top a .example{
     width: 100%;
     height: 100%;
@@ -208,7 +216,7 @@ main #works2 .page .right .wrap .bottom .text_pt{
 }
 main #works2 .page .right .wrap .bottom .text_pt .title{
     width: 100%;
-    height: 40px;
+    height: 70px;
     line-height: 40px;
     margin-bottom: 20px;
 }
@@ -219,7 +227,7 @@ main #works2 .page .right .wrap .bottom .text_pt .title h1{
 }
 main #works2 .page .right .wrap .bottom .text_pt .title h1 a{
     cursor: pointer;
-    /* display: block; */
+    /* display: inline-block; */
     transition: color 0.5s;
     color: #11191e;
     transition: color 0.4s;
@@ -227,7 +235,9 @@ main #works2 .page .right .wrap .bottom .text_pt .title h1 a{
 main #works2 .page .right .wrap .bottom .text_pt .title h1 a:hover{
     color: #5b8291;
 }
-main #works2 .page .right .wrap .bottom .text_pt .details{}
+main #works2 .page .right .wrap .bottom .text_pt .details{
+    /* background-color: #888; */
+}
 main #works2 .page .right .wrap .bottom .text_pt .details h2{
     color: #11191e;
     font-size: 22px;

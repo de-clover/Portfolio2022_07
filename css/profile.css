@@ -2,19 +2,17 @@
 
 main section#profile{
     background-color: #11191e;
-
 }
 main #profile .page{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 main #profile .page .left{
     width: 50%;
     height: 100%;
     padding: 100px;
-    /*padding: 80px 100px 100px 100px;*/ /*default: padding: 100px*/
     background-color: #eaebed;
 }
 main #profile .page .left .wrap{
@@ -77,7 +75,7 @@ main #profile .page .left .wrap .pic_space .pic{
     right: 0;top: 0;
 
 }
-main #profile .page .left .wrap .pic_space .pic  .dark{
+main #profile .page .left .wrap .pic_space .pic .dark{
     width: 100%;
     height: 100%;
     opacity: 0.1;
@@ -96,7 +94,7 @@ main #profile .page .left .wrap .text_space{
     /* background-color: #987; */
 }
 main #profile .page .left .wrap .text_space h2{
-    margin:15px 0 15px ;
+    margin:15px 0;
     font-size: 30px;
     font-weight: 400;
     color: #11191e;
@@ -121,8 +119,6 @@ main #profile .page .left .wrap .text_space ul li{
 }
 main #profile .page .left .wrap .text_space ul li p{}
 main #profile .page .left .wrap .text_space ul li span{}
-
-
 
 
 
@@ -171,6 +167,7 @@ main #profile .page .right .wrap .title h1{
     display: flex;
     /* width: 300px; */
 
+    
     border-bottom: 1px solid #eaebed;
     /* border-bottom: 1px solid #11191e; */
     color: #eaebed;
